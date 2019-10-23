@@ -3,56 +3,24 @@
     border: 0.1em solid #ccc;
     color: #FFF;
     height: 8em;
-    width: 65%;
+    width: 60%;
     margin: 0 auto;
     border-radius: 5px 5px 0 0;
     background-color: rgba(255, 255, 255, 0.1);
-
-    ul.top {
-        list-style: none;
-        margin: 20px 10px;
-        padding: 0;
-        text-align: right;
-
-        li {
-            float: left;
-            margin-left: 10px;
     
-            input[type=checkbox] {
-                display: none;
-            }
-        
-            input[type=checkbox] + label {
-                display: block;
-                margin: 0.1em;
-                cursor: pointer;
-                padding: 0.1em;
-            }
-            
-            input[type=checkbox] + label:before {
-                content: '\2714';
-                border: 0.1em solid #fff;
-                border-radius: 0.2em;
-                display: inline-block;
-                width: 1.2em;
-                height: 1.2em;
-                margin-right: 0.5em;
-                vertical-align: bottom;
-                color: transparent;
-                transition: .2s;
-            }
-              
-            input[type=checkbox] + label:active:before {
-                transform: scale(0);
-            }
-            
-            input[type=checkbox]:checked + label:before {
-                background-color: transparent;
-                border-color: #fff;
-                color: #479EDD;
-            }
-        }
-        li:first-child{
+    .top {
+        display: grid;
+        grid: 30px / 5% 95%;
+        grid-gap: 0;
+        padding: 5px;
+        height: auto;
+    }
+    
+    .top > div {
+        padding: 10px 15px 0;
+        font-size: 14px;
+
+        a  {
             display: inline-block;
             border-radius: 50%;
             width: 28px;
@@ -60,64 +28,90 @@
             text-align: center;
             border: 1px solid #fff;
             line-height: 36px;
-    
-            img {
-                width: 65%;
-            }
         }
-        li:nth-last-child(1), li:nth-last-child(2), li:nth-last-child(3) {
-            float: none;
-            display: inline-block;
-            padding: 0 10px 0;
+
+        img {
+            width: 60%;
+        }
+    }
+
+    div#checkboxes{
+        text-align: right;
+
+     
+        input[type=checkbox] {
+            display:none;
+        }
+             
+        input[type=checkbox] + label {
+            border: 0.1em solid #fff;
+            background: transparent;
+            height: 11px;
+            width: 14px;
+            display:inline-block;
+            padding: 0;
+            margin: 0 0 0 30px;
+        }
+        input[type=checkbox]:checked + label {
+            background-image: url("../../../assets/images/checkmark.svg");
+            height: 11px;
+            width: 14px;
+            display:inline-block;
+            padding: 0;
+            margin: 0 0 0 30px;
+        }
+        span {
+            margin: 0 0 0 10px;
         }
     }
 
     .bottom {
         color: #345678;
         display: grid;
-        grid: 30px / 8% 13% 13% 13% 40% 5% 5%;
+        grid: 30px / 8% 14% 14% 14% 36% 7% 7%;
         grid-gap: 0;
         background-color: rgba(255, 255, 255, 0.8);
         background-image: linear-gradient(#BACAD8, #fff, #fff);
         padding: 5px;
-        height: auto;
+        margin-top: 22px;
     }
     
     .bottom > div {
-        padding: 10px 15px 0;
-        font-size: 15px;
+        padding: 10px 20px 0;
+        font-size: 14px;
         line-height: 10px;
-        float: left;
     }
   }
 
   .flight-content {
+    margin-bottom: 2em;
+    
     .row {
         color: #505050;
         display: grid;
-        grid: 50px / 8% 13% 13% 13% 40% 5% 5%;
+        grid: 50px / 8% 14% 14% 14% 36% 7% 7%;
         grid-gap: 0;
         background-color: rgba(255, 255, 255, 0.8);
         padding: 5px;
-        width: 65%;
+        width: 60%;
         margin: 10px auto 0 auto;
         border-radius: .5em;
         height: 50px;
     }
     
     .row > div {
-        padding: 10px 15px 0;
+        padding: 10px 20px 0;
         font-size: 13px;
         line-height: 30px;
-        float: left;
+
+        a {
+            line-height: 35px;
+        }
         img {
             width: 65%;
         }
-        img#link {
+        #link {
             width: 1.2em;
-        }
-        a {
-            line-height: 35px;
         }
     }
     #details{

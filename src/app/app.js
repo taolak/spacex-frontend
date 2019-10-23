@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import '../scss/styles.css'
 import { Provider } from 'react-redux'
 import store from './store'
-import Flight from './components/flight/Flight'
+import Flight from './components/flight/flight'
 
 
 class App extends Component {
