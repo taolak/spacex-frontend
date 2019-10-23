@@ -1,15 +1,12 @@
-<<<<<<< HEAD
-# R&P Frontend Assessment - React
+# SpaceX - React
 
-Description...
+All about spaceships.
+https://taolak.github.io/spacex-robots-pencils/
 
 ## Installation
 
-Instructions...
+npm i
 
 ## Start Server
 
-Instructions...
-=======
-# spcacex-robots-pencils
->>>>>>> 08ac9db3a272b3b2b87236495fa79aee3212491c
+npm start
