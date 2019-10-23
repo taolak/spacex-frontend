@@ -1,0 +1,2 @@
+export const PROCESS_REFRESH = 'PROCESS_REFRESH'
+export const RESET_PAYLOAD = 'RESET_PAYLOAD'

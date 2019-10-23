@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'Geomanist';
+  src: url("../assets/fonts/geomanist-regular-webfont.eot"), url("../assets/fonts/geomanist-regular-webfont.woff") format("woff"), url("../assets/fonts/geomanist-regular-webfont.woff2") format("woff2"), url("../assets/fonts/geomanist-regular-webfont.ttf") format("truetype"); }
+
+h1 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 45px;
+  font-weight: normal; }
+
+html {
+  overflow: hidden;
+  height: 100%;
+  background: url("../assets/images/background.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  user-select: none; }
+
+body {
+  font-family: Geomanist;
+  height: 100%;
+  overflow: auto; }
