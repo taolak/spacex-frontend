@@ -2,7 +2,7 @@
   "name": "spacex",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://taolak.github.io/spacex-robots-pencils/",
+  "homepage": "http://taolak.github.io/spacex-frontend/",
   "scripts": {
     "build-css": "node-sass-chokidar src/ -o src/",
     "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
