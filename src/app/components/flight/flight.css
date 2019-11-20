@@ -3,7 +3,7 @@
   border: 0.1em solid #ccc;
   color: #FFF;
   height: 8em;
-  width: 60%;
+  width: 68%;
   margin: 0 auto;
   border-radius: 5px 5px 0 0;
   background-color: rgba(255, 255, 255, 0.1); }
@@ -58,7 +58,7 @@
     margin-top: 22px; }
   .flight-header .bottom > div {
     padding: 10px 20px 0;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 10px; }
 
 .flight-content {
@@ -70,13 +70,13 @@
     grid-gap: 0;
     background-color: rgba(255, 255, 255, 0.8);
     padding: 5px;
-    width: 60%;
+    width: 68%;
     margin: 10px auto 0 auto;
     border-radius: .5em;
     height: 50px; }
   .flight-content .row > div {
     padding: 10px 20px 0;
-    font-size: 13px;
+    font-size: 12px;
     line-height: 30px; }
     .flight-content .row > div a {
       line-height: 35px; }
